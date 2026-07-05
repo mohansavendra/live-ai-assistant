@@ -1,3 +1,14 @@
+---
+title: Live AI Assistant
+emoji: 🤖
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: "6.19.0"
+app_file: app.py
+pinned: false
+---
+
 # Live AI Assistant
 
 A production-grade AI assistant that searches the web in real time, verifies facts, and remembers conversations across sessions. Built entirely on free infrastructure.
@@ -15,10 +26,7 @@ You ask a question, it decides whether to search the web or answer directly, pul
 | Web search | Tavily API (free) |
 | Memory | Session dict + ChromaDB |
 | UI | Gradio |
-| Hosting | Hugging Face Spaces (free) |
 
-## Architecture
 ## Author
 
 Mohan Savendra Tikkireddy — AI/ML Engineer
-[LinkedIn](https://www.linkedin.com/in/mohan-savendra-tikkireddy-b59897220/) · [Portfolio](https://mohan-ai-portfolio.vercel.app/)
